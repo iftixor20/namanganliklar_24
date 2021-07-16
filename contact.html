@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/contact-min.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <title>contact bolimi</title>
+</head>
+<body>
+  <div class="header-wrapper">
+    <div class="container header-container">
+      <header class="header">
+        <div class="header-left">
+          <a class="logo-link" href="index.html">
+            <img class="logo" src="./img/n24.svg" width="303" height="20" alt="Logo Namanganliklar24">
+          </a>
+
+          <ul class="currencies">
+            <li class="currency">
+              <span class="currency-icon">&#36</span>10137.2
+            </li>
+            <li class="currency">
+              <span class="currency-icon">&#8381</span>128.26
+            </li>
+            <li class="currency">
+              <span class="currency-icon">&#8364</span>10988.72
+            </li>
+          </ul>
+        </div> <!-- End of header-left -->
+
+        <div class="header-right">
+          <form class="search-form" action="nomi" method="GET" enctype="multipart/form-data">
+            <input class="search-input" type="text" name="qidirish" placeholder="nima qidiramiz?">
+          </form>
+          <button class="search-btn">
+            <img class="search-image" src="./img/lupa.svg" width="24" height="24" alt="Searching">
+          </button>
+          <div class="lang">
+            <img class="lang-img" src="./img/rus.svg" width="20" height="20" alt="Russian flag">
+            <span class="lang-text">РУ</span>
+          </div>
+          <a class="tg-link" href="#">
+            <img class="tg-img" src="./img/telegram.svg" width="20" height="20" alt="Telegram icon">
+            <span class="tg-link-text">Подписатся</span>
+          </a>
+        </div> <!-- End of header-right -->
+      </header> <!-- End of header -->
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Узбекистана</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Мир</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Экономика</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Политика</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Общество</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Технологии</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Спорт</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Культура</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Происшествия</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Туризм</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="nrg-link" href="#">
+        <img class="add-img" src="./img/nrg-banner.jpg" width="1240" height="99" alt="Reklama">
+      </a>
+    </div>
+  </div>
+    <!-- End of header-container -->
+
+    <div class="container">
+      <section class="section">
+        <div class="survey">
+          <h2 class="survey-h2">
+            Напишите нам
+          </h2>
+          <form class="survey-from" action="sorovnoma" method="GET" enctype="multipart/form-data">
+            <div class="survey-new">
+              <input class="survey-text" type="text" name="ism" placeholder="Имя">
+            </div>
+
+            <div class="survey-new">
+              <input class="survey-text" type="email" name="email" placeholder="Электронная почта">
+            </div>
+
+            <div class="survey-new">
+              <input class="survey-text" type="tel" name="tel" placeholder="Номер телефона">
+            </div>
+
+            <div class="survey-new">
+              <input class="survey-text" name="text" placeholder="Тема">
+            </div>
+
+            <div class="textarea">
+              <textarea class="textarea-text" name="text" cols="0" rows="0" placeholder="Текст"></textarea>
+            </div>
+
+            <div class="survey-file">
+              <label class="label_file" for="file">
+                <input class="virsula-hidden" id="file" multiple type="file" name="rasm" placeholder="Прикрепить файл">
+                <img class="label_img" src="./img/file.svg" width="24" height="24" alt="icon">
+              </label>
+            </div>
+
+            <form class="passwor" action="namanganliklar24" method="POST">
+              <div class="from-password">
+                <input class="from-input" type="password" name="password" placeholder="Код">
+                <p class="from-p">4 k 7 Z a</p>
+              </div>
+            </form>
+            <button class="btn" type="submit">Отправить</button>
+          </form>
+        </div>
+
+        <div class="aplication">
+          <h1 class="text_h1">NAMANGANLIKLAR24</h1>
+          <div class="text-left">
+            <ul class="text-list">
+              <li class="text-item">
+                <div class="email_text">
+                  Электронная почта
+                </div>
+                <p class="email_p app_img">info@namanganliklar24.uz</p>
+              </li>
+
+              <li class="text-item">
+                <div class="email_text">Социальные сети</div>
+                <div class="app_img">
+                  <img class="icon_img" src="./img/facebook.png" width="32" height="32" alt="icon">
+                  <img class="icon_img" src="./img/twitter.png" width="32" height="32" alt="icon">
+                  <img src="./img/odnoklasnik.png" width="32" height="32" alt="icon">
+                </div>
+              </li>
+
+              <li class="text-item">
+                <div class="email_text">Телеграм канал</div>
+                <a class="app_img btn_link" href="#">
+                  <img class="tg_link" src="./img/telegram.svg" width="20" height="20" alt="Telegram icon">
+                  <span class="tg-link-btn">Подписатся</span>
+                </a>
+              </li>
+
+              <li class="text-item">
+                <div class="email_text">Мобильная приложение</div>
+                <div class="app_img">
+                  <img src="./img/googlePlay-w.png" width="110" height="33" alt="google play">
+                  <img src="./img/appleStore-w.png" width="110" height="33" alt="app store">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="close_page">
+          <div class="foter_logo">
+            <div class="n_foter"><a class="n-link" href="https://index.html">NAMANGANLIKLAR24</a></div>
+
+            <p class="foter_p">
+              Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:
+            </p>
+
+            <a class="footer_link" href="#">
+              <img class="foter-img images" src="./img/telegram-blue.svg" width="20" height="20" alt="Telegram icon">
+              <span class="foter-link-text">Подписатся</span>
+            </a>
+
+          </div>
+          <div class="horizantal"> </div>
+
+          <div class="sayt">
+            <div class="sayt-text">
+              <h3 class="sayt-h3">О сайте</h3>
+              <p>
+                Воспроизводство, копирование, тиражирование, распростране ние и иное использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+              </p>
+            </div>
+
+            <ul class="sayt-list">
+                <li class="sayt-item">Информация о сайте</li>
+                <li class="sayt-item">Напишите нам</li>
+                <li class="sayt-item">Реклама</li>
+                <li class="sayt-item">Прислать новость</li>
+            </ul>
+
+            <ul class="sayt-item-list">
+                <li class="sayt-item">Использование материалов </li>
+                <li class="sayt-item">Темы дня</li>
+                <li class="sayt-item">Наша команда</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+
+</body>
+</html>
+
