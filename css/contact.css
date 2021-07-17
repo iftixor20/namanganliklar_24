@@ -133,7 +133,7 @@ body {
   border: 1px solid white;
   padding-left: 10px;
   font-family: 'Roboto', 'Arial', sans-serif;
-  color: black;
+  color: #cccccc;
   font-size: 12px;
   line-height: 14px;
   font-weight: 400;
@@ -218,7 +218,7 @@ body {
 .add-img {
   display: block;
   object-fit: cover;
-  width: 1240px;
+  max-width: 1240px;
   height: 99px;
   padding: 0;
   margin: 0;
@@ -248,7 +248,10 @@ body {
   margin-bottom: 20px;
   border-radius: 5px;
   padding-left: 16px;
-  color: #000000;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #888888;
 }
 
 .textarea-text {
@@ -259,6 +262,10 @@ body {
   padding-left: 16px;
   padding-top: 15px;
   margin-bottom: 27px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #888888;
 }
 
 .survey-file {
@@ -323,6 +330,7 @@ body {
   font-weight: 700;
   margin-bottom: 40px;
   color: #ffffff;
+  transition: 0.3s ease;
 }
 
 .btn:hover {
